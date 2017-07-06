@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>FACEBOOK</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+	<section class="container">
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<h1>FACEBOOK</h1>
+				<fb:login-button 
+  					scope="public_profile,email"
+  					onlogin="checkLoginState();">
+				</fb:login-button>
+				<br>
+				<br>
+				<div id="fb-root" class="text-center"></div>
+				<div class="fb-login-button text-center" data-size="medium" data-button-type="continue_with" data-show-faces="true" data-auto-logout-link="false" data-use-continue-as="true"></div>
+			</div>
+		</div>
+	</section>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
